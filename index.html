@@ -13,9 +13,11 @@
       padding: 0;
       margin: 0;
     }
+    .fb-share-button-wrapper {
+      text-align: center;
+    }
     .fb-share-button {
       margin: 10px auto;
-      display: block !important;
     }
   </style>
 </head>
@@ -35,9 +37,11 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Your share button code -->
-  <div class="fb-share-button" 
-    data-href="https://devqzzr.github.io/nestle/" 
-     data-layout="button" data-size="large">
+  <div class="fb-share-button-wrapper">
+    <div class="fb-share-button" 
+      data-href="https://devqzzr.github.io/nestle/" 
+       data-layout="button" data-size="large">
+    </div>
   </div>
 
 </body>
